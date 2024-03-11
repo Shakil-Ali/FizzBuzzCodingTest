@@ -17,5 +17,15 @@ namespace FizzBuzzChallenge
             else
                 return number.ToString();
         }
+
+
+        public void PrintFizzBuzzRange(int start, int end)
+        {
+            for(int i = start; i < end; i++) 
+            {
+                Console.WriteLine(GetFizzBuzz(i));
+            }
+        }
+
     }
 }
